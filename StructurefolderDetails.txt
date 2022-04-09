@@ -1,0 +1,40 @@
+/************ FOLDER STRUCTURE ***************/
+MainFolder-
+          Day-1 >
+                 day1-index.js
+
+          final-Index.js >
+                         (all days index file + chalenges + interviews)
+          challengeList.js>
+                         (All Challenges)
+          interviewQuestion.js >
+                         (All Interview Questions)
+
+
+
+
+/************ Daily Learning Updates ***************/
+
+
+ Day-1 :
+        👨🏻‍💻👨🏻‍💻 Install 👨🏻‍💻👨🏻‍💻
+        💽 install Visual Studio Code
+        💽 install node.js
+
+        📂📂📂 File 📂📂📂
+        day1-index.js
+                     🖊️ Difference Between Values and Variables in JavaScript
+                     🖊️ Naming Conventions in JS
+                     🏋🏻‍♂️ Challenge-1 Time: variable name is valid or not
+                     🖊️ Data Types In JavaScript
+                     🏋🏻‍♂️ Challenge-2 Time: Guess the output
+                     🙋🏻 Interview Question-1: Difference between null and undefined
+                     🙋🏻 Interview Question-2: What is NaN (Not a Number)
+                     🏋🏻‍♂️ Challenge-3 Time: Guess the output
+                     🖊️ Expressions and Operators
+                     🖊️ Operators In JS
+                     🏋🏻‍♂️ Challenge-4 Time: Guess The Output
+                     🙋🏻 Interview Question-3: Difference between == vs ===
+
+             
+        
