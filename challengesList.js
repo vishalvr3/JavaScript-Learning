@@ -32,6 +32,7 @@ console.log(false - false); //0 (0-0)
 /*****************************🤯 Challenge-3:  *************************/
 /***************************** Guess the output  ***********************/
 /****************************** Day-1 index.js  ************************/
+
 console.log(NaN === NaN); //true
 console.log(Number.NaN === NaN); // false
 console.log(isNaN(NaN)); //true
@@ -41,6 +42,7 @@ console.log(Number.isNaN(NaN)); //true
 /*****************************🤯 Challenge-4:  *************************/
 /***************************** Guess the output  ***********************/
 /****************************** Day-1 index.js  ************************/
+
 // ✏️ What will be the output of 3**3? //27
 console.log(3 ** 3);
 
@@ -66,3 +68,45 @@ a = a + b; //1 + 2, a = 3
 b = a - b; //3 - 2, b = 1
 a = a - b; //3 - 1, a = 2
 console.log(a, b);
+
+/*****************************🤯 Challenge-5:  *************************/
+/***************************** Leap Year Or Not  ***********************/
+/****************************** Day-2 index.js  ************************/
+
+// 🤔❓ Write a program that works out whether if a given year is a leap year or not.
+// Solution:
+var year = 2400; // 1988, 1992, 1996, 1700, 1800, 1900, 2100, 2200, 2300, 2500, 2600, 1600, 2000, 2400
+if (year % 4 === 0) {
+  if (year % 100 === 0) {
+    if (year % 400 === 0) {
+      // console.log("Leap year");
+    } else {
+      // console.log("Not a leap year");
+    }
+  } else {
+    // console.log(`${year} is a leap year`);
+  }
+} else {
+  // console.log(`${year} is Not a leap year`);
+}
+
+/*****************************🤯 Challenge-6:  *************************/
+/********************* Program to write Table of number  ***************/
+/****************************** Day-2 index.js  ************************/
+
+// 🤔❓ Write a JS program to print table for given number (8,9,12,15) using for Loop.
+var num = 8; //8,9,12,15
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`${num} x ${i} = ${num * i}`);
+}
+
+/*****************************🤯 Challenge-7:  *************************/
+/**************** Function Parameter and Function Arguments ************/
+/****************************** Day-2 index.js  ************************/
+
+// 🤔❓ What is the difference between Function Parameter and Function Arguments?
+/*
+📝 Function paramneters are the names listed in the function definitions.
+📝 Function arguments are the real values passed to the function.
+*/

@@ -15,7 +15,6 @@ MainFolder-
 
 /************ Daily Learning Updates ***************/
 
-
  Day-1 :
         👨🏻‍💻👨🏻‍💻 Install 👨🏻‍💻👨🏻‍💻
         💽 install Visual Studio Code
@@ -37,4 +36,20 @@ MainFolder-
                      🙋🏻 Interview Question-3: Difference between == vs ===
 
              
-        
+ Day-2 :
+       📂📂📂 File 📂📂📂
+        day2-index.js
+                     🖊️ Control Statement and Loop
+                     🖊️ ➰ If-Else
+                     🏋🏻‍♂️ Challenge Time (if else statement): given year is a leap year or not.
+                     🖊️ What is truthy and falsy values in JavaScript?
+                     🖊️ Conditional (ternary) Operator:
+                     🖊️ ➰ Switch Statement:
+                     🖊️ ➰ While Loop:
+                     🖊️ ➰ Do-While Loop:
+                     🖊️ ➰ For Loop:
+                     🏋🏻‍♂️ Challenge Time (For-Loop): table for given number using for Loop.
+                     🙋🏻 Interview Question: Why Functions?
+                     🖊️ Function Expressions:
+                     🖊️ Anonymous Expressions:
+                     

@@ -13,7 +13,7 @@
           in terminal> node index.js
 
 💥2)
-    📝 Difference Between Values and Variables in JavaScript
+    📝 Difference Between Values and Variables in JavaScript:
          var myName = "Vishal Singh Chauhan";
       Here,
           Variable (key) = var  (used to store value or say data)
@@ -32,7 +32,7 @@
 
 💥4)
       🏋🏻‍♂️ Challenge-1 Time:
-                    checking if the variable name is valid or not
+                    🤔❓ checking if the variable name is valid or not
                     1. var _myName    👍🏻
                     2. var _1my__Name 👍🏻
                     3. var 1myName    👎🏻
@@ -59,7 +59,7 @@
 
 💥6)
      🏋🏻‍♂️ Challenge-2 Time: 
-                    Guess the output
+                  🤔❓ Guess the output
                   ✏️ 10 + "20"          // 1020
                   ✏️ 9 - "5"            // 4
                   ✏️ "Java" + "Script"  // javaScript
@@ -73,7 +73,7 @@
 
 💥7)
       🙋🏻 Interview Question-1:
-      Difference between null and undefined
+                          🤔❓ Difference between null and undefined
                           🖋️ null:
                                 We assign it explicitly to any variable
                           🖋️ undefined: 
@@ -81,14 +81,14 @@
 
 💥8)
       🙋🏻 Interview Question-2:
-      What is NaN (Not a Number) ?
+                      🤔❓ What is NaN (Not a Number) ?
                       🖋️ NaN is a property of the global object
                       🖋️ In other words, it is a variable in global scope.
                       🖋️ The initial value of NaN is Not-A-Number
 
 💥9)
       🏋🏻‍♂️ Challenge-3 Time: 
-                     Guess the output
+                    🤔❓ Guess the output
                     ✏️ NaN === NaN //true
                     ✏️ Number.NaN === NaN // false
                     ✏️ isNaN(NaN) //true
@@ -142,7 +142,7 @@
 
 💥12)
       🏋🏻‍♂️ Challenge-4 Time:
-                  Guess The Output
+                  🤔❓ Guess The Output
                   ✏️ What will be the output of 3**3? (exponential operator)
                      Sol: 3 * 3 * 3 = 27
 
@@ -157,9 +157,9 @@
 
 💥13)
       🙋🏻 Interview Question-3:
-      What is difference between == vs === ?
-      📝 == : Value same (abstract equality)
-      📝 === : Value and Data type same (strict equality)
+                  🤔❓ What is difference between == vs === ?
+                  📝 == : Value same (abstract equality)
+                  📝 === : Value and Data type same (strict equality)
 
 🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒*/
 
