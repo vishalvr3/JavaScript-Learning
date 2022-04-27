@@ -53,3 +53,46 @@ MainFolder-
                      🖊️ Function Expressions:
                      🖊️ Anonymous Expressions:
                      
+
+ Day-3 :
+       📂📂📂 File 📂📂📂
+        day2-index.js
+                     🖊️ ECMASCRIPT:
+                                   ⚔️ History
+                                   ⌛ Timeline
+                                   🚲 Services:
+                                          📝ECMAScript 2015 (ES6) updated features:
+                                                 💡 LET and CONST
+                                                 💡 Template Literals
+                                                 💡 Default Arguments
+                                                 💡 Destructuring
+                                                 💡 Object Properties
+                                                 💡 Arrow Functions
+                                                 💡 Rest Operators
+                                                 💡 Spread operators
+                                   📦 Arrays In Javascript
+                                   👨🏻‍💻 Array Methods:
+                                                 🖊️ Traversal of an array:
+                                                        🧭 Navigate through an array.
+                                                                             👻 For Loop
+                                                                             👻 For In Loop
+                                                                             👻 For Of Loop
+                                                                             👻 For each Loop
+                                                 🖊️ Searching and filter in an array:
+                                                                             👻 Array.indexof()
+                                                                             👻 Array.includes()
+                                                                             👻 Array.find((currVal) => {}) (returns only one value)
+                                                                             👻 Array.filter((currVal)=> {currVal<400})
+                                                  🖊️ How to sort and compare an array:
+                                                                             👻 Array.sort()
+                                                 🖊️ How to insert, add, replace and delete elements in an array:
+                                                                             👻 Array.push() // returns the new length of arr
+                                                                             👻 Array.unshift()
+                                                                             👻 Array.pop()
+                                                                             👻 Array.shift()
+                                                 🖊️ Map(), Reduce(), Filter()
+                                          
+                                          🏋🏻‍♂️ Challenge Time (Sorting)
+                                          🏋🏻‍♂️ Challenge Time: Array Methods
+                                          🏋🏻‍♂️ Challenge Time:  (map, filter practice challenge)
+                                          🖊️ How to flattten an array (reduce method)

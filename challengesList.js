@@ -110,3 +110,83 @@ for (let i = 1; i <= 10; i++) {
 📝 Function paramneters are the names listed in the function definitions.
 📝 Function arguments are the real values passed to the function.
 */
+
+/*****************************🤯 Challenge-8:  *************************/
+/************* SORTING ARRAY IN ASCENDING and DESCENDING ORDER*********/
+/****************************** Day-3 index.js  ************************/
+// ⁉️1
+const fruits = ["Banana", "Orange", "Apple"];
+console.log(fruits.sort()); // [ 'Apple', 'Banana', 'Orange' ]
+
+// ⁉️2
+const arr1 = [1, 30, 4, 21, 100000, 99];
+
+console.log(arr1.sort()); // [ 1, 100000, 21, 30, 4, 99 ]
+console.log(arr1.sort((a, b) => a - b)); // [ 1, 4, 21, 30, 99, 100000 ]
+
+/*****************************🤯 Challenge-9:  *************************/
+/******************************* Array Methods *************************/
+/****************************** Day-3 index.js  ************************/
+/*
+const months = ["Jan", "march", "April", "June", "July"]
+1: Add Dec at the end of an Array?
+2: What is the return value of splice method?
+3: update march to March (update) ?
+4: Delete June from an array ?
+*/
+// SOLs-
+const monthList = ["Jan", "march", "April", "June", "July"];
+
+//🧑🏻‍💻 Sol-1
+// monthList.push("Dec");
+// const newMonth = monthList.splice(5, 0, "Dec");
+// const newMonth = monthList.splice(monthList.length, 0, "Dec");
+// console.log(monthList); // [ 'Jan', 'march', 'April', 'June', 'July', 'Dec' ]
+
+//🧑🏻‍💻 Sol-2
+// const spliceMonth = monthList.splice(1, 3);
+// console.log(spliceMonth); // [ 'march', 'April', 'June' ] // removed 3 elements from index 1
+// console.log(monthList); // [ 'Jan', 'July', 'Dec' ]
+
+//🧑🏻‍💻 Sol-3
+// const updateMarch = monthList.splice(1, 1, "March");
+// console.log(monthList); // [ 'Jan', 'March', 'April', 'June', 'July' ]
+
+// const indexMarch = monthList.indexOf("march");
+// if (indexMarch != -1) {
+//   const updateMarch = monthList.splice(indexMarch, 1, "March");
+// } else {
+//   console.log("No such data find");
+// }
+// console.log(monthList); // [ 'Jan', 'March', 'April', 'June', 'July' ]
+
+//🧑🏻‍💻 Sol-4
+// const indexJune = monthList.indexOf("June");
+// console.log(indexJune); // 3
+// console.log(monthList.splice(indexJune, 1)); // [ 'June' ]
+// console.log(monthList); // [ 'Jan', 'march', 'April', 'July' ]
+
+/*****************************🤯 Challenge-10:  ************************/
+/********************* MAP and FILTER Practice challenge****************/
+/****************************** Day-3 index.js  ************************/
+/*
+⁉️🤯 1- Find the square root of each element in an array.
+        let arr = [25, 36, 49, 64, 81]
+⁉️🤯 2- Multiply each element by 2 and return only those elements which are greater than 10?
+        let arr = [2,3,4,6,8]
+*/
+//🧑🏻‍💻SOl-1
+let arrSqrt = [25, 36, 49, 64, 81];
+const sqrtedArr = arrSqrt.map((num) => Math.sqrt(num));
+// console.log(sqrtedArr); // [ 5, 6, 7, 8, 9 ]
+
+//🧑🏻‍💻SOl-2
+let arrMult = [2, 3, 4, 6, 8];
+
+// const multedArr = arrMult.map((num) => num * 2);
+// console.log(multedArr); // [ 4, 6, 8, 12, 16 ]
+// const filteredMultedArr = multedArr.filter((num) => num > 10);
+// console.log(filteredMultedArr); // [ 12, 16 ]
+
+const multFiltArr = arrMult.map((num) => num * 2).filter((num) => num > 10);
+// console.log(multFiltArr);
